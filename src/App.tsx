@@ -106,7 +106,6 @@ function App() {
           >
             <Menu size={22} />
           </button>
-
           <div>
             <h1>{getTitle()}</h1>
             <p className="subtitle">Snapshot of your workspace</p>
