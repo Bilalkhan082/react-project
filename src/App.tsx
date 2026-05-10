@@ -107,7 +107,9 @@ function App() {
           </button>
           <div>
             <h1>{getTitle()}</h1>
-            <p className="subtitle">Snapshot of your workspace</p>
+            <p className="subtitle">
+              Welcome back! Here's what's happening with your dashboard today.
+            </p>
           </div>
         </header>
 
