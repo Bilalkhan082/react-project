@@ -98,7 +98,6 @@ function App() {
       </aside>
 
       <div className="main">
-
         <header className="topbar">
           <button
             className="menu-btn"
@@ -115,7 +114,6 @@ function App() {
 
         {page === 'overview' && (
           <>
-            
 
             <section className="stats" aria-label="Key metrics">
               {stats.map((s) => (
