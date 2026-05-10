@@ -228,12 +228,6 @@ function App() {
 
         {page === 'customers' && (
           <>
-            <header className="topbar">
-              <h1>Customers</h1>
-              <p className="subtitle">
-                Customer engagement and activity
-              </p>
-            </header>
 
             <section className="stats">
               <article className="stat-card">
@@ -361,14 +355,7 @@ function App() {
 
         {page === 'settings' && (
           <>
-            <header className="topbar">
-              <h1>Settings</h1>
-
-              <p className="subtitle">
-                Manage your dashboard settings
-              </p>
-            </header>
-
+            
             <section className="panel">
               <h2>General Settings</h2>
 
