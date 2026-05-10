@@ -115,8 +115,7 @@ function App() {
 
         {page === 'overview' && (
           <>
-            
-
+          
             <section className="stats" aria-label="Key metrics">
               {stats.map((s) => (
                 <article key={s.label} className="stat-card">
